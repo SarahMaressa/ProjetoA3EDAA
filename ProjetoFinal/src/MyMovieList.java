@@ -173,7 +173,7 @@ public class MyMovieList {
         panelBotoesSuperiores.add(botaoTodos);
 
          // JComboBox para ordenação
-        JComboBox<String> comboBoxOrdenacao = new JComboBox<>(new String[]{"Filtro","Por Adição", "Por Nome", "Por Avaliação"});
+        JComboBox<String> comboBoxOrdenacao = new JComboBox<>(new String[]{"Ordenação","Por Adição", "Por Nome", "Por Avaliação"});
         comboBoxOrdenacao.setPreferredSize(new Dimension(88, 19));
         comboBoxOrdenacao.setBackground(corCaixaPesquisa);
         comboBoxOrdenacao.setForeground(corLetras); 
