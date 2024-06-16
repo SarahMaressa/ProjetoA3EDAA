@@ -82,5 +82,8 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 - *Nome:* Kaique Icaro Higino da Silva
 - *Email:* kaiqueicaro32@gmail.com
 - *GitHub:* SlenderXs
+- - *Nome:* Vitor Tadeu Rocha
+- *Email:* vitortr05@gmail.com
+- *GitHub:* Vitor TR
 
 ---
