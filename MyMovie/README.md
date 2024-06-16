@@ -76,5 +76,11 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 - *Nome:* Pedro dos Santos Assunção
 - *Email:* pedro251502@gmail.com
 - *GitHub:* [dsapedro]([https://github.com/seu-usuario](https://github.com/dsapedro))
+- *Nome:* Sarah Maressa Marques Silva
+- *Email:* sarah.marquessilva74@gmail.com
+- *GitHub:* SarahMaressa
+- *Nome:* Kaique Icaro Higino da Silva
+- *Email:* kaiqueicaro32@gmail.com
+- *GitHub:* SlenderXs
 
 ---
