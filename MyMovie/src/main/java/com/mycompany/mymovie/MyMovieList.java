@@ -11,7 +11,7 @@ import java.awt.event.MouseEvent;
 import java.util.List;
 
 /**
- *
+ * Classe principal da aplicação
  * @author pedro
  */
 public class MyMovieList {
@@ -19,7 +19,7 @@ public class MyMovieList {
     private List<Filme> listaAtual;
 
     /**
-     *
+     * Inicia a aplicação GUI no thread de eventos Swing
      * @param args
      */
     public static void main(String[] args) {
@@ -27,14 +27,14 @@ public class MyMovieList {
     }
 
     /**
-     *
+     * Inicializa a biblioteca de filmes e cria a interface gráfica do usuário
      */
     public MyMovieList() {
         biblioteca = new BibliotecaFilmes(); // Inicializa a biblioteca de filmes
         criarInterfaceGrafica(); // Cria a interface gráfica do usuário
     }
     /**
-     * 
+     * Cria e define a janela principal
      */
     private void criarInterfaceGrafica() {
         JFrame frame = new JFrame("Mymovielist "); // Cria a janela principal
@@ -128,7 +128,7 @@ public class MyMovieList {
         frame.setVisible(true); // Torna a janela visível
     }
     /**
-     * 
+     * Cria e configura um campo de texto com as cores especificadas
      * @param colunas
      * @param corFundo
      * @param corLetras
@@ -143,7 +143,7 @@ public class MyMovieList {
         return campo;
     }
     /**
-     * 
+     * Cria e configura um checkbox com as cores especificadas
      * @param texto
      * @param corFundo
      * @param corLetras
@@ -157,7 +157,7 @@ public class MyMovieList {
         return checkBox;
     }
     /**
-     * 
+     * Cria e configura um botão com as cores especificadas
      * @param texto
      * @param corFundo
      * @param corLetras
@@ -171,7 +171,7 @@ public class MyMovieList {
         return botao;
     }
     /**
-     * 
+     * Cria e configura um rótulo com a cor especificada
      * @param texto
      * @param corLetras
      * @return 
@@ -183,7 +183,7 @@ public class MyMovieList {
         return label;
     }
     /**
-     * 
+     * Configura o painel com a cor de fundo especificada
      * @param painel
      * @param corFundo 
      */
@@ -192,7 +192,7 @@ public class MyMovieList {
         painel.setBackground(corFundo);
     }
     /**
-     * 
+     * Adiciona um componente ao painel com as configurações de GridBagConstraints especificadas
      * @param painel
      * @param componente
      * @param gbc
@@ -206,7 +206,7 @@ public class MyMovieList {
         painel.add(componente, gbc);
     }
     /**
-     * 
+     * Adiciona um componente ao painel com as configurações de GridBagConstraints especificadas, incluindo a largura
      * @param painel
      * @param componente
      * @param gbc
@@ -222,7 +222,7 @@ public class MyMovieList {
         painel.add(componente, gbc);
     }
     /**
-     * 
+     * Atualiza a lista de filmes exibida no painel
      */
     // Atualiza a lista de filmes exibida no painel
     private void atualizarListaFilmes(JPanel panelFilmes, List<Filme> filmes, String titulo, Color corFundo, Color corLetras, Color corCaixaPesquisa) {
