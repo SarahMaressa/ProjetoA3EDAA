@@ -6,7 +6,7 @@ package com.mycompany.mymovie;
 
 import java.util.List;
 /**
- * 
+ * Algoritmo de ordenação por inserção
  * @author pedro
  */
 public class OrdenadorFilmes {
@@ -24,7 +24,7 @@ public class OrdenadorFilmes {
     }
 
     /**
-     *
+     * Algoritmo de ordenação por seleção
      * @param filmes
      */
     public static void ordenarPorNome(List<Filme> filmes) {
@@ -42,7 +42,7 @@ public class OrdenadorFilmes {
         }
     }
     /**
-     * 
+     * Algoritmo de ordenação por quick sort
      * @param filmes
      * @param inicio
      * @param fim
@@ -65,7 +65,7 @@ public class OrdenadorFilmes {
         return i + 1;
     }
     /**
-     * 
+     * Algoritmo de ordenação quick sort
      * @param filmes 
      */
     public static void ordenarPorAvaliacao(List<Filme> filmes) {
@@ -73,7 +73,7 @@ public class OrdenadorFilmes {
         ordenarPorAvaliacaoRecursivo(filmes, 0, filmes.size() - 1);
     }
     /**
-     * 
+     * Algoritmo de ordenação recursiva
      * @param filmes
      * @param inicio
      * @param fim 
