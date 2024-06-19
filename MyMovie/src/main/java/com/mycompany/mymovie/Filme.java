@@ -7,7 +7,7 @@ package com.mycompany.mymovie;
 import java.io.Serializable;
 
 /**
- *
+ * Armazena os dados dos filmes
  * @author pedro
  */
 public class Filme implements Serializable {
@@ -20,7 +20,7 @@ public class Filme implements Serializable {
     private int avaliacao;
 
     /**
-     *
+     * Construtor
      * @param nome
      * @param genero
      * @param diretor
@@ -38,91 +38,91 @@ public class Filme implements Serializable {
     }
 
     /**
-     *
-     * @return
+     * Para obter o nome do filme
+     * @return nome
      */
     public String getNome() {
         return nome;
     }
 
     /**
-     *
-     * @return
+     * Para obter o genero do filme
+     * @return genero.
      */
     public String getGenero() {
         return genero;
     }
 
     /**
-     *
-     * @return
+     * Para obter o diretor do filme
+     * @return diretor
      */
     public String getDiretor() {
         return diretor;
     }
 
     /**
-     *
-     * @return
+     * Para obter o ano do filme
+     * @return ano
      */
     public int getAno() {
         return ano;
     }
 
     /**
-     *
-     * @return
+     * Retorna se o filme foi assistido
+     * @return assistido
      */
     public boolean isAssistido() {
         return assistido;
     }
 
     /**
-     *
+     * Marca o filme como assistido
      */
     public void marcarComoAssistido() {
         this.assistido = true;
     }
 
     /**
-     *
+     * Desmarca o filme como assistido
      */
     public void desmarcarComoAssistido() {
         this.assistido = false;
     }
 
     /**
-     *
-     * @return
+     * Retorna se o filme foi marcado como favorito
+     * @return favorito
      */
     public boolean isFavorito() {
         return favorito;
     }
 
     /**
-     *
+     * Marca o filme como favorito
      */
     public void adicionarAosFavoritos() {
         this.favorito = true;
     }
 
     /**
-     *
+     * Desmarca o filme como favorito
      */
     public void removerDosFavoritos() {
         this.favorito = false;
     }
 
     /**
-     *
-     * @return
+     * Retorno a avaliação
+     * @return avaliacao
      */
     public int getAvaliacao() {
         return avaliacao;
     }
 
     /**
-     *
+     * Atribui a avaliação
      * @param avaliacao
      */
     public void setAvaliacao(int avaliacao) {
@@ -130,7 +130,7 @@ public class Filme implements Serializable {
     }
 
     /**
-     *
+     * Metodo toString
      * @return
      */
     @Override
