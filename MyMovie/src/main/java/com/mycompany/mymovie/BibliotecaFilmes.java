@@ -12,14 +12,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 
+ * Está é a classe que gere o filmes.
  * @author pedro
  */
 public class BibliotecaFilmes {
     private Connection connection;
 
     /**
-     * 
+     * Essa é a classe que conecta com o banco de dados.
      */
     public BibliotecaFilmes() {
         try {
@@ -35,7 +35,7 @@ public class BibliotecaFilmes {
     }
     
     /**
-     *
+     * Insere um novo filme na tabela
      * @param nome
      * @param genero
      * @param diretor
@@ -60,7 +60,7 @@ public class BibliotecaFilmes {
     }
 
     /**
-     *
+     * Lista todos os filmes na tabela
      * @return
      */
     public List<Filme> listarFilmes() {
@@ -87,7 +87,7 @@ public class BibliotecaFilmes {
     }
 
     /**
-     *
+     * Marca um filme como assistido
      * @param nome
      */
     public void marcarComoAssistido(String nome) {
@@ -102,7 +102,7 @@ public class BibliotecaFilmes {
     }
 
     /**
-     *
+     * Desmarca um filme como assistid
      * @param nome
      */
     public void desmarcarComoAssistido(String nome) {
@@ -117,7 +117,7 @@ public class BibliotecaFilmes {
     }
 
     /**
-     *
+     * Lista todos os filmes marcados como assistidos
      * @return
      */
     public List<Filme> listarAssistidos() {
@@ -126,7 +126,7 @@ public class BibliotecaFilmes {
     }
 
     /**
-     *
+     * Adiciona um filme aos favoritos
      * @param nome
      */
     public void adicionarAosFavoritos(String nome) {
@@ -141,7 +141,7 @@ public class BibliotecaFilmes {
     }
 
     /**
-     *
+     * Remove um filme dos favoritos
      * @param nome
      */
     public void removerDosFavoritos(String nome) {
@@ -156,7 +156,7 @@ public class BibliotecaFilmes {
     }
 
     /**
-     *
+     * Lista todos os filmes marcados como favoritos
      * @return
      */
     public List<Filme> listarFavoritos() {
@@ -165,7 +165,7 @@ public class BibliotecaFilmes {
     }
 
     /**
-     *
+     * Remove um filme da tabela
      * @param nome
      */
     public void removerFilme(String nome) {
@@ -180,7 +180,7 @@ public class BibliotecaFilmes {
     }
 
     /**
-     *
+     * Busca filmes pelo nome
      * @param nome
      * @return
      */
@@ -209,7 +209,7 @@ public class BibliotecaFilmes {
         return filmes;
     }
     /**
-     * 
+     * Lista filmes com base em uma condição SQL
      * @param condicao
      * @return 
      */
@@ -237,7 +237,7 @@ public class BibliotecaFilmes {
     }
     
     /**
-     *
+     *  Atualiza a avaliação de um filme
      * @param nome
      * @param avaliacao
      */
@@ -255,7 +255,7 @@ public class BibliotecaFilmes {
     
     
     /**
-     * 
+     * Cria a tabela de filmes se não existir
      */
     private void criarTabelaSeNaoExistir() {
         // Cria a tabela de filmes se não existir
